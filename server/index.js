@@ -54,7 +54,7 @@ app.use("/posts", postRoutes);
 
 app.get("/", (req,res,next) => {return res.status(200).json({
   success:true,
-  message: "Donr"
+  message: "Done"
 })})
 
 /* MONGOOSE SETUP */
